@@ -1,0 +1,5 @@
+[
+  {"name": "raw_payload", "type": "STRING",    "mode": "NULLABLE"},
+  {"name": "error",       "type": "STRING",    "mode": "NULLABLE"},
+  {"name": "ingested_at", "type": "TIMESTAMP", "mode": "REQUIRED"}
+]

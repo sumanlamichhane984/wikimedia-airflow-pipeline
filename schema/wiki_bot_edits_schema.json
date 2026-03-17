@@ -1,0 +1,19 @@
+[
+  {"name": "event_id",         "type": "STRING",    "mode": "NULLABLE"},
+  {"name": "revision_id",      "type": "INTEGER",   "mode": "NULLABLE"},
+  {"name": "wiki",             "type": "STRING",    "mode": "REQUIRED"},
+  {"name": "title",            "type": "STRING",    "mode": "REQUIRED"},
+  {"name": "normalized_title", "type": "STRING",    "mode": "NULLABLE"},
+  {"name": "namespace",        "type": "INTEGER",   "mode": "NULLABLE"},
+  {"name": "event_type",       "type": "STRING",    "mode": "NULLABLE"},
+  {"name": "user",             "type": "STRING",    "mode": "NULLABLE"},
+  {"name": "user_is_anon",     "type": "BOOLEAN",   "mode": "NULLABLE"},
+  {"name": "byte_delta",       "type": "INTEGER",   "mode": "NULLABLE"},
+  {"name": "is_minor",         "type": "BOOLEAN",   "mode": "NULLABLE"},
+  {"name": "comment",          "type": "STRING",    "mode": "NULLABLE"},
+  {"name": "server_name",      "type": "STRING",    "mode": "NULLABLE"},
+  {"name": "event_timestamp",  "type": "TIMESTAMP", "mode": "NULLABLE"},
+  {"name": "publisher_ts",     "type": "TIMESTAMP", "mode": "NULLABLE"},
+  {"name": "ingested_at",      "type": "TIMESTAMP", "mode": "REQUIRED"},
+  {"name": "window_start",     "type": "TIMESTAMP", "mode": "NULLABLE"}
+]
