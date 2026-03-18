@@ -1,1 +1,19 @@
+# Google Cloud
+google-cloud-bigquery==3.17.1
+google-cloud-storage==2.14.0
+google-cloud-pubsub==2.21.1
 
+# Data Processing
+pandas==2.2.1
+db-dtypes==1.2.0
+
+# Jupyter
+notebook==7.1.2
+ipykernel==6.29.3
+
+# Airflow (for reference — runs on Cloud Composer)
+apache-airflow==2.10.5
+apache-airflow-providers-google==10.20.0
+
+# HTTP
+requests==2.31.0
